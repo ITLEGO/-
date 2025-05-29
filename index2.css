@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: radial-gradient(circle, rgba(181,140,38,0.58) 29%, rgba(112,94,8,1) 55%, rgba(0,0,0,1) 60%, rgba(81,145,24,1) 68%, rgba(91,141,255,1) 83%, rgba(226,90,90,1) 99%);
+    animation: gentleShake 1.5s infinite alternate; /* Чуть интенсивнее, но плавно */
+  }
+  
+  @keyframes gentleShake {
+    0% {
+        background-size: 100% 100%; /* Исходный размер */
+    }
+    100% {
+        background-size: 101% 101%; /* Чуть больше увеличение */
+    }
+  }
+  
+  
+  
+  
+  .div1 {
+  
+      display: flex;
+      justify-content: center;
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+
+  
+  .div2 {
+  
+      display: flex;
+      justify-content: center;
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .Кнопка {
+  
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      height: 50px;
+      font-size: 30px;
+      color: #000;
+      background-color: #ffb6c1;
+      border-radius: 10px;
+      border: 1px solid #ffb6c1;
+  
+  }
+  
+  .Кнопка:hover {
+  
+      background: #003366;
+      color: #ffb6c1;
+  }
+  
+  .Кнопка:active {
+  
+      transform: scale(0.9);
+      transition: 100ms;
+  
+  }
+  
+  
+  .главDiv2 {
+      
+  /* margin: 20px; */
+      
+  /* display: flex; */
+      
+  /* justify-content: center; */
+      
+  position: absolute;
+      
+  left: 50%;
+      
+  top: 50%;
+      
+  transform: translate(-50%, -50%);
+  }
+  
+  
+  .div3 {
+      margin-top: 100px;
+      display: flex;
+      justify-content: space-between;
+      border: 1px solid #ffb6c1;
+      border-radius: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
+  
+  }
+  
+  
+  
+  .Заголовок2 {
+  
+      font-size: 45px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: #ffb6c1;
+      margin-left: 60px;
+  
+  }
+  
+  
+  
+  /* Основные стили для кнопки */
+  .arrow-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    width: 100px; /* Размер кнопки */
+    height: 100px; /* Размер кнопки */
+  }
+  
+  /* Стили для стрелки */
+  .arrow {
+    display: block;
+    width: 60px; /* Размер стрелки */
+    height: 60px; /* Размер стрелки */
+    border: solid #000;
+    border-width: 0 6px 6px 0; /* Толщина стрелки */
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 16px;
+    left: 3px;
+    transition: opacity 0.3s ease;
+  }
+  
+  
+  
+  
+  button:active {
+  
+      transform: scale(0.8);
+      transition: 100ms;
+  
+  }
+  
+  
+  .стрелка {
+  
+  /* margin-left: 870px; */
+  
+  /* margin-top: 270px; */
+  
+  /* border: 1px solid black; */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
